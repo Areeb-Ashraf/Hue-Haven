@@ -1,8 +1,8 @@
-# 3444-project
+# Hue Haven
 
-Project for Software engineering CSCE 3444
+The goal of this project is to create a chrome extention that allow colorblind individuals a better user experience when browsing the internet. 
 
-Collaborators
+### Collaborators
 - Areeb Ashraf
 - Chase Richardson
 - Sebastian Melendez
