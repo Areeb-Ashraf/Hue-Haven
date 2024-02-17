@@ -1,0 +1,12 @@
+{
+    "manifest_version": 3,
+    "name": "Hue Haven",
+    "description": "An extension that helps make webpages colorblind friendly",
+    "version": "1.0",
+    "icons": {
+      "16": "images/icon-16x16.png"
+    },
+    "action": {
+      "default_popup": "index.html"
+    }
+  }
