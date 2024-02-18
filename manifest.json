@@ -4,7 +4,7 @@
     "description": "An extension that helps make webpages colorblind friendly",
     "version": "1.0",
     "icons": {
-      "16": "images/icon-16x16.png"
+      "16": "images/HueHavenIcon.png"
     },
     "action": {
       "default_popup": "index.html"
