@@ -3,6 +3,10 @@
     "name": "Hue Haven",
     "description": "An extension that helps make webpages colorblind friendly",
     "version": "1.0",
+    "permissions": [
+      "activeTab",
+      "scripting"
+    ],
     "icons": {
       "16": "images/HueHavenIcon.png"
     },

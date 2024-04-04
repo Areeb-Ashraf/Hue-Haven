@@ -1,12 +1,13 @@
-body {
-    background-color: powderblue;
-}
-
 html {
     width: 500px; /* max: 800px without scroll bars*/
     height: 600px; /* max: 600px without scroll bars*/
+    padding: 1rem;
 }
 
 h1 {
     text-align:center;
+}
+
+.grayText{
+    color: grey;
 }

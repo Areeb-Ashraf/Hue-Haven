@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hue Haven</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .header-logo {
+            height: 60px;
+            width: auto;
+            margin: 30px;
+        }
+
+        .features-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            grid-gap: 20px;
+            margin-bottom: 20px;
+        }
+
+        .feature-card {
+            background: #f9f9f9;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            padding: 20px;
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+
+        .feature-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+
+        .feature-icon {
+            font-size: 2em;
+            margin-bottom: 8px;
+        }
+
+        .feature-header {
+            color: #007BFF;
+            font-size: 20px;
+            margin-bottom: 5px;
+        }
+
+        .feature-text {
+            font-size: 14px;
+        }
+
+        button {
+            background-color: #007BFF;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            margin-top: 20px;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="images/HueHaven.png" alt="Hue Haven Logo" class="header-logo">
+        <h1><strong>Welcome to Hue Haven</strong></h1>
+        <p>Easily activate the Hue Haven extension with a simple click from your browser toolbar, enabling all color accessibility features instantly.</p>
+        <div class="overview">
+            <h2><strong>Overview</strong></h2>
+            <p>For individuals who have a color vision deficit, navigating the internet can provide a few problems.
+                People who are color blind frequently encounter difficulties interpreting and browsing material that
+                others take for granted since a large number of websites and online applications are not designed for
+                accessibility.</p>
+            <p>Hue Haven shows up as a creative fix intended to close this gap. The purpose of this carefully designed
+                Chrome extension is to improve the online experience
+                for people who are color blind. Hue Haven modifies the colors of text, backgrounds, and pictures on
+                webpages by applying refined color filters, which makes the material easier for visitors to read and
+                distinguish.</p>
+        </div>
+        <!-- Features Section -->
+        <h2><strong>Features</strong></h2>
+        <div class="features-list">
+            <!-- Feature 1 -->
+            <div class="feature-card">
+                <div class="feature-icon">🎨</div>
+                <h3 class="feature-header">Select Blindness</h3>
+                <p class="feature-text">Simulate different types of color blindness to tailor web page colors to your specific vision needs with our customizable selection menu.</p>
+            </div>
+            <!-- Feature 2 -->
+            <div class="feature-card">
+                <div class="feature-icon">⚙️</div>
+                <h3 class="feature-header">Settings</h3>
+                <p class="feature-text">Personalize your browsing with a user-friendly UI, adjusting preferences for colors and features to match your visual requirements.</p>
+            </div>
+            <!-- Feature 3 -->
+            <div class="feature-card">
+                <div class="feature-icon">🔆</div>
+                <h3 class="feature-header">Toggle High/Low Contrast</h3>
+                <p class="feature-text">Enhance the readability of web pages with a high contrast mode or Low Contrast, designed to make text and images more distinguishable.</p>
+            </div>
+            <!-- Feature 4 -->
+            <div class="feature-card">
+                <div class="feature-icon">🔗</div>
+                <h3 class="feature-header">Website URL Filter</h3>
+                <p class="feature-text">Gain control over where Hue Haven activates by listing website URLs, enabling or disabling the extension's filters as needed.</p>
+            </div>
+            <!-- Feature 5 -->
+            <div class="feature-card">
+                <div class="feature-icon">🖱️</div>
+                <h3 class="feature-header">Enable Color Hover</h3>
+                <p class="feature-text">Discover the color details of any web element through a hover feature, displaying color information on demand.</p>
+            </div>
+            <!-- Feature 6 -->
+            <div class="feature-card">
+                <div class="feature-icon">📝</div>
+                <h3 class="feature-header">Color Changer for Text</h3>
+                <p class="feature-text">Customize the color scheme of webpage text to improve readability and distinguish text from each other by color coding text.</p>
+            </div>
+            <!-- Feature 7 -->
+            <div class="feature-card">
+                <div class="feature-icon">🎛️</div>
+                <h3 class="feature-header">Custom Color Presets</h3>
+                <p class="feature-text">Create and save your own color filters and apply them into each website that you visit.</p>
+            </div>
+            
+        </div>
+                <!-- User and System Requirements -->
+                <div class="feature"> <!-- Use the same feature class for consistency -->
+                    <h3 class="feature-header">Requirements</h3>
+                    <ul>
+                        <li><strong>Chrome Browser:</strong> Be familiar with using chrome browser and accessing the extension store.</li>
+                        <li><strong>Internet and Browser Skills:</strong> Familiarity with Google Chrome and understanding of
+                            web navigation.</li>
+                    </ul>
+                </div>
+                        <!-- Privacy Policy and Terms of Use Links -->
+        <div class="feature">
+            <h3 class="feature-header">Privacy and Terms</h3>
+            <p>Your privacy is important to us. Read our <a href="privacy_policy_link_here">Privacy Policy</a> and <a href="terms_of_use_link_here">Terms of Use</a> to understand how we collect, use, and protect your data.</p>
+        </div>
+                <!-- Accessibility and Compliance Information -->
+                <div class="feature">
+                    <h3 class="feature-header">Accessibility and Compliance</h3>
+                    <p>Hue Haven is committed to ensuring digital accessibility for individuals with disabilities. We continuously work towards improving the user experience for everyone, adhering to the relevant accessibility standards. Our extension aims to comply with WCAG 2.1 level AA standards, making the web more accessible by offering features that address color vision deficiencies.</p>
+                </div>
+        <!-- Call to Action (CTA) -->
+        <button onclick="window.location.href='https://chromewebstore.google.com/category/extensions';">Download Now</button>
+    </div>
+</body>
+</html>
